@@ -28,7 +28,7 @@ export default App;
 const App = () => {
   return (
     <>
-      <UsersList users={user} />
+      <user user={user} />
     </>
   );
 };
