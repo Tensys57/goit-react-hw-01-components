@@ -1,14 +1,17 @@
 import user from './user.json';
 
-<Profile
+{
+  /* <Profile
   username={user.username}
   tag={user.tag}
   location={user.location}
   avatar={user.avatar}
   stats={user.stats}
-/>;
+/>; */
+}
 
-<div class="profile">
+{
+  /* <div class="profile">
   <div class="description">
     <img
       src="https://cdn-icons-png.flaticon.com/512/1077/1077012.png"
@@ -34,4 +37,5 @@ import user from './user.json';
       <span class="quantity">3000</span>
     </li>
   </ul>
-</div>;
+</div>; */
+}
