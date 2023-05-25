@@ -28,7 +28,16 @@ const App = () => {
           stats={user.stats}
         />
       </div>
-      <div className="chapter">
+
+      <div
+        className="chapter"
+        style={{
+          display: 'flex',
+          flexDirection: 'column',
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}
+      >
         <Statistics title="Upload stats" stats={data} />
       </div>
       <div className="chapter">
