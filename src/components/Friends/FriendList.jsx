@@ -4,7 +4,7 @@ import { FriendListItem } from './FriendListItem';
 const UlList = styled.ul`
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 12px;
   justify-content: center;
   align-items: center;
   backgroundcolor: beige;
