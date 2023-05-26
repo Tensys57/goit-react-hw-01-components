@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
 import { FriendListItem } from './FriendListItem';
 
 const UlList = styled.ul`
@@ -23,4 +24,8 @@ export const FriendList = ({ friends }) => {
       ))}
     </UlList>
   );
+};
+
+FriendList.propTypes = {
+  friends: PropTypes.array.isRequired,
 };

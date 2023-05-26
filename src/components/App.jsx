@@ -9,17 +9,7 @@ import transactions from '../data/transactions.json';
 const App = () => {
   return (
     <section>
-      <div
-        className="chapter"
-        style={{
-          display: 'flex',
-          flexDirection: 'column',
-          justifyContent: 'center',
-          alignItems: 'center',
-          fontSize: 24,
-          color: '#010101',
-        }}
-      >
+      <div className="chapter">
         <Profile
           username={user.username}
           tag={user.tag}
@@ -29,26 +19,10 @@ const App = () => {
         />
       </div>
 
-      <div
-        className="chapter"
-        style={{
-          display: 'flex',
-          flexDirection: 'column',
-          justifyContent: 'center',
-          alignItems: 'center',
-        }}
-      >
+      <div className="chapter">
         <Statistics title="Upload stats" stats={data} />
       </div>
-      <div
-        className="chapter"
-        style={{
-          display: 'flex',
-          flexDirection: 'column',
-          justifyContent: 'center',
-          alignItems: 'center',
-        }}
-      >
+      <div className="chapter">
         <FriendList friends={friends} />
       </div>
       <div className="chapter">
